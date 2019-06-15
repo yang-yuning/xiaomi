@@ -1,0 +1,1551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/font_3tqov9k0ew6/iconfont.css">
+    <script src="./js/jquery-3.0.0.js"></script>
+    <script type="text/javascript" src="./lib/common.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/comm.js"></script>
+    <script src="./js/banner.js"></script>
+    <script src="./js/swiper.min.js"></script>
+</head>
+
+<body>
+    <div id="xm">
+        <!-- 头部 -->
+        <div class="site-nav">
+            <div class="container clearfix">
+                <ul class="clearfix fl">
+                    <li class="fl clearfix"><a href="javascript:;" class="fl">小米商城</a><span class="fl">|</span></li>
+                    <li class="fl clearfix"><a href="javascript:;" class="fl">MIUI</a> <span class="fl">|</span></li>
+                    <li class="fl clearfix"><a href="javascript:;" class="fl">IoT</a> <span class="fl">|</span></li>
+                    <li class="fl clearfix"><a href="javascript:;" class="fl">云服务</a> <span class="fl">|</span></li>
+                    <li class="fl clearfix"><a href="javascript:;" class="fl">金融</a> <span class="fl">|</span></li>
+                    <li class="fl clearfix"><a href="javascript:;" class="fl">有品</a> <span class="fl">|</span></li>
+                    <li class="fl clearfix"><a href="javascript:;" class="fl">小爱开放平台</a> <span class="fl">|</span></li>
+                    <li class="fl clearfix"><a href="javascript:;" class="fl">政企服务</a> <span class="fl">|</span></li>
+                    <li class="fl clearfix"><a href="javascript:;" class="fl">资质证照</a> <span class="fl">|</span></li>
+                    <li class="fl clearfix"><a href="javascript:;" class="fl">协议规则</a> <span class="fl">|</span></li>
+                    <li class="fl clearfix"><a href="javascript:;" class="fl">下载app</a> <span class="fl">|</span>
+                        <div class="app">
+                            <img src="./images/93650133310ec1c385487417a472a26c.png" alt="">
+                            <p>小米商城APP</p>
+                        </div>
+                    </li>
+                    <li class="fl clearfix"><a href="javascript:;" class="fl">Select Region</a> <span class="fl">|</span></li>
+                </ul>
+                <div class="fr clearfix nav-right">
+                    <div class="fl clearfix">
+                        <a href="./html/login.html" class="fl" id="dl">登录</a><span class="fl">|</span>
+                        <a href="./html/register.html" class="fl" id="zc">注册</a><span class="fl">|</span>
+                        <span class="user" id="user"><em id="txt"></em><i class="down"></i>
+                            <ul class="user-menu">
+                                <li><a rel="nofollow" href="javascript:;">个人中心</a></li>
+                                <li><a rel="nofollow" href="javascript:;">评价晒单</a></li>
+                                <li><a rel="nofollow" href="javascript:;">我的喜欢</a></li>
+                                <li><a rel="nofollow" href="javascript:;">小米帐号</a></li>
+                                <li><a rel="nofollow" href="javascript:;" id="tc">退出登录</a></li>
+                            </ul>
+                        </span>
+                        <a href="javascript:;" class="fl">消息通知</a><span class="fl">|</span>
+                    </div>
+                    <div class="fl clearfix">
+                        <a href="javascript:;" class="fl clearfix">
+                            <i class="iconfont icon-gouwuche "></i>
+                            <i class="">购物车</i>
+                            <i class="" id="jian1">(0)</i>
+                        </a>
+                        <div class="hint">
+                                <p>你的购物车中有<i style="color: red" id="jian">0</i>件商品
+                                    <i style="color: red;cursor:pointer" id="look1">点击查看</i> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 二级导航 -->
+        <div class="site-header clearfix">
+            <div class="container clearfix">
+                <h1 class="fl"><a href="javascript:;">小米官网</a></h1>
+                <ul class="clearfix fl nav-list">
+                    <li class="fl navigation1"><a href="javascript:;" style="color:transparent">全部商品分类</a>
+                        <!-- 全部分类中的二级导航 去掉当中的内联样式，可以为其他页面使用 -->
+                        <ul class="sub-nav" style="display:block;background: rgba(0,0,0,0.6);border:none ">
+                            <li class="Three"><a href="javascript:;" style="color:#fff"><span>手机</span> <span>电话卡</span> <i class="iconfont icon-right"></i></a>
+                                <div class="nav-box sub-nav1 clearfix">
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="Three"><a href="javascript:;" style="color:#fff"><span>电视</span><span>盒子</span> <i class="iconfont icon-right"></i></a>
+                                <div class="nav-box sub-nav1 clearfix">
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="Three"><a href="javascript:;" style="color:#fff"><span>笔记本</span> <span>平板</span>
+                                    <i class="iconfont icon-right"></i></a>
+                                <div class="nav-box sub-nav1 clearfix">
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="Three"><a href="javascript:;" style="color:#fff"><span>家电</span> <span>插线板</span> <i class="iconfont icon-right"></i></a>
+                                <div class="nav-box sub-nav1 clearfix">
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="Three"><a href="javascript:;" style="color:#fff"><span>出行</span> <span>穿戴</span> <i class="iconfont icon-right"></i></a>
+                                <div class="nav-box sub-nav1 clearfix">
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="Three"><a href="javascript:;" style="color:#fff"><span>智能</span> <span>路由器</span> <i class="iconfont icon-right"></i></a>
+                                <div class="nav-box sub-nav1 clearfix">
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="Three"><a href="javascript:;" style="color:#fff"><span>电源</span> <span>配件</span> <i class="iconfont icon-right"></i></a>
+                                <div class="nav-box sub-nav1 clearfix">
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="Three"><a href="javascript:;" style="color:#fff"><span>健康</span> <span>儿童</span> <i class="iconfont icon-right"></i></a>
+                                <div class="nav-box sub-nav1 clearfix">
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="Three"><a href="javascript:;" style="color:#fff"><span>耳机</span> <span>音箱</span> <i class="iconfont icon-right"></i></a>
+                                <div class="nav-box sub-nav1 clearfix">
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="Three"><a href="javascript:;" style="color:#fff"><span>生活</span> <span>箱包</span> <i class="iconfont icon-right"></i></a>
+                                <div class="nav-box sub-nav1 clearfix">
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                    <ul class="fl">
+                                        <li><a><img src="./images/mi9-320.png" alt=""> <span>小米&nbsp;9</span></a></li>
+                                        <li><a><img src="./images/mi9se-320.png" alt=""> <span>小米&nbsp;9se</span></a></li>
+                                        <li><a><img src="./images/mix3-320.png" alt=""> <span>小米MIX&nbsp;3</span></a></li>
+                                        <li><a><img src="./images/pc-320-220-mi8.png" alt=""> <span>小米8&nbsp;青春版</span></a></li>
+                                        <li><a><img src="./images/qingchun-320.png" alt=""> <span>小米&nbsp;8</span></a></li>
+                                        <li><a><img src="./images/mi9-80.png" alt=""> <span>小米Max&nbsp;3</span></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="fl navigation navigations"><a href="javascript:;">小米手机</a>
+                        <div class="children">
+                            <div class="container clearfix">
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mi9-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米MIX 3</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mi9se-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米 9</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mix3-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米9 SE</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/pc-320-220-mi8.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米8 青春版</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/qingchun-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米8</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture" style="border-color:transparent"><a href="javascript:;"><img src="./images/mix3-80.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米MIX 3</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="fl navigation navigations"><a href="javascript:;">红米</a>
+                        <div class="children">
+                            <div class="container clearfix">
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mi9-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米MIX 3</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mi9se-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米 9</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mix3-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米9 SE</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/pc-320-220-mi8.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米8 青春版</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/qingchun-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米8</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture" style="border-color:transparent"><a href="javascript:;"><img src="./images/mix3-80.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米MIX 3</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="fl navigation navigations"><a href="javascript:;">电视</a>
+                        <div class="children">
+                            <div class="container clearfix">
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mi9-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米MIX 3</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mi9se-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米 9</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mix3-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米9 SE</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/pc-320-220-mi8.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米8 青春版</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/qingchun-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米8</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture" style="border-color:transparent"><a href="javascript:;"><img src="./images/mix3-80.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米MIX 3</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="fl navigation navigations"><a href="javascript:;">笔记本</a>
+                        <div class="children">
+                            <div class="container clearfix">
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mi9-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米MIX 3</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mi9se-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米 9</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mix3-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米9 SE</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/pc-320-220-mi8.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米8 青春版</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/qingchun-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米8</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture" style="border-color:transparent"><a href="javascript:;"><img src="./images/mix3-80.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米MIX 3</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="fl navigation navigations"><a href="javascript:;">家电</a>
+                        <div class="children">
+                            <div class="container clearfix">
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mi9-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米MIX 3</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mi9se-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米 9</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mix3-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米9 SE</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/pc-320-220-mi8.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米8 青春版</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/qingchun-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米8</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture" style="border-color:transparent"><a href="javascript:;"><img src="./images/mix3-80.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米MIX 3</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="fl navigation navigations"><a href="javascript:;">新品</a>
+                        <div class="children">
+                            <div class="container clearfix">
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mi9-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米MIX 3</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mi9se-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米 9</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mix3-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米9 SE</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/pc-320-220-mi8.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米8 青春版</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/qingchun-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米8</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture" style="border-color:transparent"><a href="javascript:;"><img src="./images/mix3-80.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米MIX 3</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="fl navigation navigations"><a href="javascript:;">路由器</a>
+                        <div class="children">
+                            <div class="container clearfix">
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mi9-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米MIX 3</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mi9se-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米 9</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mix3-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米9 SE</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/pc-320-220-mi8.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米8 青春版</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/qingchun-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米8</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture" style="border-color:transparent"><a href="javascript:;"><img src="./images/mix3-80.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米MIX 3</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="fl navigation navigations"><a href="javascript:;">智能硬件</a>
+                        <div class="children">
+                            <div class="container clearfix">
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mi9-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米MIX 3</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mi9se-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米 9</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/mix3-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米9 SE</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/pc-320-220-mi8.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米8 青春版</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture"><a href="javascript:;"><img src="./images/qingchun-320.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米8</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                                <div class="fl">
+                                    <div class="new">新品</div>
+                                    <div class="picture" style="border-color:transparent"><a href="javascript:;"><img src="./images/mix3-80.png" alt=""></a></div>
+                                    <p class="type"><a href="javascript:;">小米MIX 3</a></p>
+                                    <p class="price">3299起</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="fl navigation"><a href="javascript:;">服务</a></li>
+                    <li class="fl navigation"><a href="javascript:;">社区</a></li>
+                </ul>
+                <form action="" class="fr" id="fom">
+                    <input type="text" name="" id="tex" autocomplete="off">
+                    <a href="javascript:;" class=" iconfont icon-sousuo" id="sub"></a>
+                    <!-- <input type="button" name="" id="sub" value="" > -->
+                    <div class="link-a clearfix" id="sel"><a href="javascript:;" class="fl">小米8</a><a href="javascript:;" class="fl">小米MIX2S</a></div>
+                    <div class="select-list" id="list1">
+                        <ul>
+                            <li><a href="javascript:;" class="clearfix"><i class="fl">小米6</i><span class="fr">约有4件</span></a></li>
+                            <li><a href="javascript:;" class="clearfix"><i class="fl">小米MIX2S</i><span class="fr">约有6件</span></a></li>
+                            <li><a href="javascript:;" class="clearfix"><i class="fl">黑鲨游戏手机</i><span class="fr">约有9件</span></a></li>
+                            <li><a href="javascript:;" class="clearfix"><i class="fl">红米Note5</i><span class="fr">约有8件</span></a></li>
+                            <li><a href="javascript:;" class="clearfix"><i class="fl">红米5A</i><span class="fr">约有12件</span></a></li>
+                            <li><a href="javascript:;" class="clearfix"><i class="fl">小米电视4c</i><span class="fr">约有3件</span></a></li>
+                            <li><a href="javascript:;" class="clearfix"><i class="fl">电视32英寸</i><span class="fr">约有8件</span></a></li>
+                            <li><a href="javascript:;" class="clearfix"><i class="fl">笔记本pro</i><span class="fr">约有5件</span></a></li>
+                            <li><a href="javascript:;" class="clearfix"><i class="fl">空气净化器</i><span class="fr">约有6件</span></a></li>
+                            <li><a href="javascript:;" class="clearfix"><i class="fl">热水器</i><span class="fr">约有14件</span></a></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- 轮播图 -->
+        <div class="slider">
+            <div class="slider_box">
+                <p><img src="images/banner1.jpg" alt=""></p>
+                <p><img src="images/banner2.jpg" alt=""></p>
+                <p><img src="images/banner3.jpg" alt=""></p>
+                <p><img src="images/banner4.jpg" alt=""></p>
+                <p><img src="images/banner5.jpg" alt=""></p>
+            </div>
+            <div class="slider_control">
+                <a class="prev">&lt;</a>
+                <a class="next">&gt;</a>
+            </div>
+            <div class="slider_nav"></div>
+        </div>
+        <!-- main -->
+        <div class="main">
+            <div class="container">
+                <div class="main1">
+                    <div class="container">
+                        <ul class="clearfix" id="bloated">
+                        </ul>
+                    </div>
+                </div>
+                <div class="main2">
+                    <div class="AD">
+                        <img src="./images/AD1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="main3">
+                    <div class="container">
+                        <div class="top">
+                            <h2>手机</h2>
+                            <span id="ck">查看全部<i class="iconfont icon-right"></i></span>
+                        </div>
+                        <div class="left">
+                            <a href="javascript:;">
+                                <img src="images/dsj.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="right" id="sj">
+                            <ul id="list">
+                                <!-- <li>
+                                    <img src="./images/sj1.jpg" alt="" class="figure-img">
+                                    <h3><a href="javascript:;">小米9 SE 6GB+64GB</a></h3>
+                                    <p class="desc">骁龙855，索尼4800万超广角微距三摄</p>
+                                    <p class="price"> <span class="num">1999</span>元 <s>2188元</s> </p>
+                                    <div class="flag flag-new">新品</div>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="main4">
+                    <div class="container">
+                        <div class="main2" style="padding-top: 20px">
+                            <div class="AD">
+                                <img src="./images/AD2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="top">
+                            <h2>家电</h2>
+                            <div class="more J_brickNav">
+                                <ul class="tab-list J_brickTabSwitch" data-tab-target="homeelec-content">
+                                    <li class="tab-active">热门</li>
+                                    <li>电视影音</li>
+                                    <li>电脑</li>
+                                    <li>家居</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="dibu">
+                            <div class="fl">
+                                <div class="span4 span-first">
+                                    <ul class="brick-promo-list clearfix">
+                                        <li class="brick-item brick-item-m">
+                                            <a href="javascript:;"><img src="./images/jd1.jpg" alt=""></a>
+                                        </li>
+                                        <li class="brick-item brick-item-m">
+                                            <a href="javascript:;"><img src="./images/jd2.jpg" alt=""></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="right2">
+                                <ul class="list2">
+                                    <!-- <li class="brick-item brick-item-m" data-gid="1185100021">
+                        <div class="flag flag-saleoff">    减 200 元  </div>
+                        <div class="figure figure-img"> <a class="exposure" href="javascript:;"><img src="./images/jd3.jpg"></a> </div>
+                        <h3 class=" title"> <a href="javascript:;">米家互联网洗烘一体机10kg</a></h3>
+                        <p class="desc">OLED 显示屏幕 / 激光颗粒物传感器</p>
+                        <p class="price"> <span class="num">2199</span>元 <s>2299元</s></p>
+                        <p class="rank"></p>
+                        <div class="review-wrapper">
+                        <a href="javascript:;">
+                        <span class="review">挺好的，洗的也干净，白色很简单，好看
+                        </span>
+                        <span class="author"> 来自于 白羊董小姐 的评价
+                        <span class="date" data-date="1547983148"></span>
+                        </span>
+                        </a>
+                        </div>
+                    </li>
+                    <li class="last">
+                                                    <div class="hovsh-t">
+                                                        <p><a href="javascript:;">小米净水器</a></p>
+                                                        <p>1990元</p>
+                                                        <a href="javascript:;" class="link-a"><img src="./images/xt.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="hovsh-b">
+                                                        <p><a href="javascript:;">浏览更多</a></p>
+                                                        <p><a href="javascript:;">热门</a></p>
+                                                        <a href="javascript:;" class="link-a iconfont icon-zuo1"></a>
+                                                    </div>
+                    </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main4">
+                    <div class="container">
+                        <div class="main2" style="padding-top: 20px">
+                            <div class="AD">
+                                <img src="./images/AD3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="top">
+                            <h2>智能</h2>
+                            <div class="more J_brickNav">
+                                <ul class="tab-list J_brickTabSwitch" data-tab-target="homeelec-content">
+                                    <li class="tab-active">热门</li>
+                                    <li>电视影音</li>
+                                    <li>电脑</li>
+                                    <li>家居</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="dibu">
+                            <div class="fl">
+                                <div class="span4 span-first">
+                                    <ul class="brick-promo-list clearfix">
+                                        <li class="brick-item brick-item-m">
+                                            <a href="javascript:;"><img src="./images/zn1.jpg" alt=""></a>
+                                        </li>
+                                        <li class="brick-item brick-item-m">
+                                            <a href="javascript:;"><img src="./images/zn2.jpg" alt=""></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="right2">
+                                <ul class="list2">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main4">
+                    <div class="container">
+                        <div class="main2" style="padding-top: 20px">
+                            <div class="AD">
+                                <img src="./images/AD4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="top">
+                            <h2>搭配</h2>
+                            <div class="more J_brickNav">
+                                <ul class="tab-list J_brickTabSwitch" data-tab-target="homeelec-content">
+                                    <li class="tab-active">热门</li>
+                                    <li>电视影音</li>
+                                    <li>电脑</li>
+                                    <li>家居</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="dibu">
+                            <div class="fl">
+                                <div class="span4 span-first">
+                                    <ul class="brick-promo-list clearfix">
+                                        <li class="brick-item brick-item-m">
+                                            <a href="javascript:;"><img src="./images/dp1.jpg" alt=""></a>
+                                        </li>
+                                        <li class="brick-item brick-item-m">
+                                            <a href="javascript:;"><img src="./images/dp2.jpg" alt=""></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="right2">
+                                <ul class="list2">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main4">
+                    <div class="container">
+                        <div class="main2" style="padding-top: 20px">
+                            <div class="AD">
+                                <img src="./images/AD5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="top">
+                            <h2>配件</h2>
+                            <div class="more J_brickNav">
+                                <ul class="tab-list J_brickTabSwitch" data-tab-target="homeelec-content">
+                                    <li class="tab-active">热门</li>
+                                    <li>电视影音</li>
+                                    <li>电脑</li>
+                                    <li>家居</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="dibu">
+                            <div class="fl">
+                                <div class="span4 span-first">
+                                    <ul class="brick-promo-list clearfix">
+                                        <li class="brick-item brick-item-m">
+                                            <a href="javascript:;"><img src="./images/pj1.jpg" alt=""></a>
+                                        </li>
+                                        <li class="brick-item brick-item-m">
+                                            <a href="javascript:;"><img src="./images/pj2.jpg" alt=""></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="right2">
+                                <ul class="list2">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main4">
+                    <div class="container">
+                        <div class="main2" style="padding-top: 20px">
+                            <div class="AD">
+                                <img src="./images/AD6.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="top">
+                            <h2>周边</h2>
+                            <div class="more J_brickNav">
+                                <ul class="tab-list J_brickTabSwitch" data-tab-target="homeelec-content">
+                                    <li class="tab-active">热门</li>
+                                    <li>电视影音</li>
+                                    <li>电脑</li>
+                                    <li>家居</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="dibu">
+                            <div class="fl">
+                                <div class="span4 span-first">
+                                    <ul class="brick-promo-list clearfix">
+                                        <li class="brick-item brick-item-m">
+                                            <a href="javascript:;"><img src="./images/zb1.jpg" alt=""></a>
+                                        </li>
+                                        <li class="brick-item brick-item-m">
+                                            <a href="javascript:;"><img src="./images/zb2.jpg" alt=""></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="right2">
+                                <ul class="list2">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main5">
+                    <div class="container">
+                        <div class="top">
+                            <h3>为你推荐</h3>
+                            <div class="jian">
+                                <div class="fl iconfont icon-prev" id="zuo"></div>
+                                <div class="fl iconfont icon-right" id="you"></div>
+                            </div>
+                        </div>
+                        <div class="neirong">
+                            <ul style="left: 0px;" id="ma9">
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma91.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma92.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma93.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma94.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma95.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma96.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma97.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma98.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma99.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma911.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma911.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma911.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma912.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma913.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma914.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma915.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma916.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma917.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma918.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                                <li class="fl hovsh">
+                                    <dl>
+                                        <dt><a href="javascript:;"><img src="./images/ma919.jpeg" alt=""></a></dt>
+                                        <dd><a href="javascript:;">小米家庭影院</a></dd>
+                                        <dd>1099元</dd>
+                                        <dd><span>399</span><span>人好评</span></dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="main6">
+                    <div class="container">
+                        <h2 class="h2">热门产品</h2>
+                        <div>
+                            <ul class="clearfix" id="ma6">
+                                <li class="fl hovsh">
+                                    <div><a href="javascript:;"><img src="./images/m91.jpg" alt=""></a></div>
+                                    <div>
+                                        <p><a href="javascript:;">超级喜欢！小巧玲珑！音质完美！不知道为什么！只要是小米出的东西我都喜欢！那倒是因为那一句？？小米为发烧而生</a></p>
+                                        <p>来自于<span>甜蜜</span>的评价</p>
+                                        <div class="clearfix">
+                                            <h5 class="fl"><a href="javascript:;">小米随身蓝牙音箱</a> </h5>
+                                            <p class="fl">|</p>
+                                            <p class="fl">69元</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="fl hovsh">
+                                    <div><a href="javascript:;"><img src="./images/m92.jpg" alt=""></a></div>
+                                    <div>
+                                        <p><a href="javascript:;">超级喜欢！小巧玲珑！音质完美！不知道为什么！只要是小米出的东西我都喜欢！那倒是因为那一句？？小米为发烧而生</a></p>
+                                        <p>来自于<span>甜蜜</span>的评价</p>
+                                        <div class="clearfix">
+                                            <h5 class="fl"><a href="javascript:;">小米随身蓝牙音箱</a> </h5>
+                                            <p class="fl">|</p>
+                                            <p class="fl">69元</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="fl hovsh">
+                                    <div><a href="javascript:;"><img src="./images/m93.jpg" alt=""></a></div>
+                                    <div>
+                                        <p><a href="javascript:;">超级喜欢！小巧玲珑！音质完美！不知道为什么！只要是小米出的东西我都喜欢！那倒是因为那一句？？小米为发烧而生</a></p>
+                                        <p>来自于<span>甜蜜</span>的评价</p>
+                                        <div class="clearfix">
+                                            <h5 class="fl"><a href="javascript:;">小米随身蓝牙音箱</a> </h5>
+                                            <p class="fl">|</p>
+                                            <p class="fl">69元</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="fl hovsh">
+                                    <div><a href="javascript:;"><img src="./images/m94.jpg" alt=""></a></div>
+                                    <div>
+                                        <p><a href="javascript:;">超级喜欢！小巧玲珑！音质完美！不知道为什么！只要是小米出的东西我都喜欢！那倒是因为那一句？？小米为发烧而生</a></p>
+                                        <p>来自于<span>甜蜜</span>的评价</p>
+                                        <div class="clearfix">
+                                            <h5 class="fl"><a href="javascript:;">小米随身蓝牙音箱</a> </h5>
+                                            <p class="fl">|</p>
+                                            <p class="fl">69元</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="main8">
+                    <div class="container">
+                        <h2 class="h2">内容</h2>
+                        <ul>
+                            <li>
+                                <h2>图书</h2>
+                                <div>
+                                    <h4>哈利.波特与被诅咒的孩子</h4>
+                                    <p>哈利·波特”第八个故事中文版震撼来袭！特别彩排版剧本！ </p>
+                                    <p class="price">29.37元</p>
+                                    <img src="./images/nr1.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <h2>MIUI 主题</h2>
+                                <div>
+                                    <h4>BROWN & FRIENDS定制主题</h4>
+                                    <p>BROWN & FRIENDS 小米定制主题，是LINE FRIENDS在与小米公司品牌合作基础上，为小米米粉节特殊定制。 </p>
+                                    <p class="kong"></p>
+                                    <img src="./images/nr2.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <h2>游戏</h2>
+                                <div>
+                                    <h4>非人学园</h4>
+                                    <p>脑洞大开的二次元竞技手游 </p>
+                                    <p class="price">29.37元</p>
+                                    <img src="./images/nr3.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <h2>应用</h2>
+                                <div>
+                                    <h4>2018金米奖</h4>
+                                    <p>最优秀的应用和游戏 </p>
+                                    <p class="price">29.37元</p>
+                                    <img src="./images/nr4.png" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main7">
+                    <div class="container">
+                        <h2 class="h2">视频</h2>
+                        <ul class="clearfix" id="ma7">
+                            <li class="fl hovsh">
+                                <div class="void">
+                                    <a href="javascript:;" title="点击播放视频">
+                                        <img src="./images/sp1.jpg" alt="">
+                                        <div class="bf">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <p><a href="javascript:;" title="点击播放视频">王源 &amp; 小米9 全新广告大片</a></p>
+                                <p>好看又能打！我反正被帅到了，Will You？</p>
+                            </li>
+                            <li class="fl hovsh">
+                                <div class="void">
+                                    <a href="javascript:;" title="点击播放视频">
+                                        <img src="./images/sp2.jpg" alt="">
+                                        <div class="bf">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <p><a href="javascript:;" title="点击播放视频">雷军对话王源</a></p>
+                                <p>聊了3小时，这9个秘密决定公开</p>
+                            </li>
+                            <li class="fl hovsh">
+                                <div class="void">
+                                    <a href="javascript:;" title="点击播放视频">
+                                        <img src="./images/sp3.jpg" alt="">
+                                        <div class="bf">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <p><a href="javascript:;" title="点击播放视频">小米MIX 3 磁动力滑盖全面屏</a></p>
+                                <p>全新滑盖交互体验，不一样的新感觉</p>
+                            </li>
+                            <li class="fl hovsh">
+                                <div class="void">
+                                    <a href="javascript:;" title="点击播放视频">
+                                        <img src="./images/sp4.jpg" alt="">
+                                        <div class="bf">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <p><a href="javascript:;" title="点击播放视频">小米MIX 3 故宫特别版</a></p>
+                                <p>传承中华国宝艺术之美</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="f-t">
+                    <ul class="clearfix">
+                        <li class="fl"><a href="javascript:;" class="hovercolor"><span class="iconfont icon-weixiu"></span><i>预约维修服务</i></a></li>
+                        <li class="fl"><a href="javascript:;" class="hovercolor"><span class="iconfont icon-tian"></span><i>七天无理由退货</i></a></li>
+                        <li class="fl"><a href="javascript:;" class="hovercolor"><span class="iconfont icon-15tian"></span><i>15天免费换货</i></a></li>
+                        <li class="fl"><a href="javascript:;" class="hovercolor"><span class="iconfont icon-liwu"></span><i>满150元包邮</i></a></li>
+                        <li class="fl"><a href="javascript:;" class="hovercolor"><span class="iconfont icon-dizhi"></span><i>520余家售后网点</i></a></li>
+                    </ul>
+                </div>
+                <div class="f-c">
+                    <div class="fl">
+                        <dl class="fl">
+                            <dt>帮助中心</dt>
+                            <dd><a href="javascript:;" class="hovercolor">账户管理</a></dd>
+                            <dd><a href="javascript:;" class="hovercolor">购物指南</a></dd>
+                            <dd><a href="javascript:;" class="hovercolor">订单操作</a></dd>
+                        </dl>
+                        <dl class="fl">
+                            <dt>服务支持</dt>
+                            <dd><a href="javascript:;" class="hovercolor">售后政策</a></dd>
+                            <dd><a href="javascript:;" class="hovercolor">自助服务</a></dd>
+                            <dd><a href="javascript:;" class="hovercolor">相关下载</a></dd>
+                        </dl>
+                        <dl class="fl">
+                            <dt>线下门店</dt>
+                            <dd><a href="javascript:;" class="hovercolor">小米之家</a></dd>
+                            <dd><a href="javascript:;" class="hovercolor">服务网点</a></dd>
+                            <dd><a href="javascript:;" class="hovercolor">授权体验店</a></dd>
+                        </dl>
+                        <dl class="fl">
+                            <dt>关于小米</dt>
+                            <dd><a href="javascript:;" class="hovercolor">了解小米</a></dd>
+                            <dd><a href="javascript:;" class="hovercolor">加入小米</a></dd>
+                            <dd><a href="javascript:;" class="hovercolor">投资者关系</a></dd>
+                        </dl>
+                        <dl class="fl">
+                            <dt>关注我们</dt>
+                            <dd><a href="javascript:;" class="hovercolor">新浪微博</a></dd>
+                            <dd><a href="javascript:;" class="hovercolor">官方微信</a></dd>
+                            <dd><a href="javascript:;" class="hovercolor">联系我们</a></dd>
+                        </dl>
+                        <dl class="fl">
+                            <dt>特色服务</dt>
+                            <dd><a href="javascript:;" class="hovercolor">F 码通道</a></dd>
+                            <dd><a href="javascript:;" class="hovercolor">礼物码</a></dd>
+                            <dd><a href="javascript:;" class="hovercolor">防伪查询</a></dd>
+                        </dl>
+                    </div>
+                    <div class="fr">
+                        <p>400-100-5678</p>
+                        <p>周一至周日 8:00-18:00</p>
+                        <p>（仅收市话费）</p>
+                        <p><a href="javascript:;"><span class="iconfont icon-xinxi"></span><i>联系客服</i></a></p>
+                    </div>
+                </div>
+                <div class="f-b">
+                    <div class="clearfix">
+                        <div class="fl f-logo">小米官网</div>
+                        <div class="fl sites">
+                            <p class="clearfix">
+                                <a href="javascript:;" class="fl hovercolor ">小米商城</a>
+                                <a href="javascript:;" class="fl hovercolor ">MIUI</a>
+                                <a href="javascript:;" class="fl hovercolor ">米家</a>
+                                <a href="javascript:;" class="fl hovercolor ">米聊</a>
+                                <a href="javascript:;" class="fl hovercolor ">多看</a>
+                                <a href="javascript:;" class="fl hovercolor ">游戏</a>
+                                <a href="javascript:;" class="fl hovercolor ">路由器</a>
+                                <a href="javascript:;" class="fl hovercolor ">米粉卡</a>
+                                <a href="javascript:;" class="fl hovercolor ">政企服务</a>
+                                <a href="javascript:;" class="fl hovercolor ">小米天猫店</a>
+                                <a href="javascript:;" class="fl hovercolor ">隐私政策</a>
+                                <a href="javascript:;" class="fl hovercolor ">商城用户协议</a>
+                                <a href="javascript:;" class="fl hovercolor ">账号协议</a>
+                                <a href="javascript:;" class="fl hovercolor ">问题反馈</a>
+                                <a href="javascript:;" class="fl hovercolor ">廉政举报</a>
+                                <a href="javascript:;" class="fl hovercolor ">诚信合规</a>
+                                <a href="javascript:;" class="fl hovercolor ">Select Region</a>
+                            </p>
+                            <p>
+                                <span>©</span>
+                                <a href="javascript:;" class="hovercolor">mi.com</a>
+                                <a href="javascript:;" class="">京ICP证110507号</a>
+                                <a href="javascript:;" class="hovercolor">京ICP备10046444号</a>
+                                <a href="javascript:;" class="hovercolor">京公网安备11010802020134号</a>
+                                <a href="javascript:;" class="hovercolor">京网文[2017]1530-131号 </a>
+                            </p>
+                            <p>
+                                <a href="javascript:;" class="hovercolor">（京）网械平台备字（2018）第00005号</a>
+                                <a href="javascript:;" class="hovercolor">互联网药品信息服务资格证 (京) -非经营性-2014-0090</a>
+                                <a href="javascript:;" class="hovercolor">营业执照</a>
+                                <a href="javascript:;" class="hovercolor"> 医疗器械公告 </a>
+                            </p>
+                            <p>
+                                <a href="javascript:;" class="hovercolor">增值电信业务许可证</a>
+                                <a href="javascript:;">网络食品经营备案（京）【2018】WLSPJYBAHF-12</a>
+                                <a href="javascript:;">食品经营许可证 </a>
+                            </p>
+                            <p><a href="javascript:;">违法和不良信息举报电话：185-0130-1238</a> <a class="hovercolor">知识产权侵权投诉</a><a href="javascript:;"></a> 本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p>
+                            <div class="clearfix"> <a href="javascript:;"><img src="./images/truste.png" alt=""></a>
+                                <a href="javascript:;"><img src="./images/v-logo-1.png" alt=""></a>
+                                <a href="javascript:;"><img src="./images/v-logo-2.png" alt=""></a>
+                                <a href="javascript:;"><img src="./images/v-logo-3.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 侧边导航 -->
+        <div class="home-main">
+            <ul>
+                <li>
+                    <div class="phone  "></div>
+                    <div class="code gong">
+                        <div><img src="./images/93650133310ec1c385487417a472a26c.png" alt=""></div>
+                        <p>手机扫一扫一分赢好礼</p>
+                        <div class="sjx"></div>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;" class="geren"></a>
+                    <div class="geren1 gong">
+                        <a href="javascript:;">个人中心</a>
+                        <div class="sjx"></div>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;" class="kefu"></a>
+                    <div class="kefu1 gong">
+                        <a href="javascript:;">联系客服</a>
+                        <div class="sjx"></div>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;" class="shopping"></a>
+                    <div class="shopping1 gong">
+                        <a href="javascript:;"><span>购物车</span> <span>(0)</span></a>
+                        <div class="sjx"></div>
+                    </div>
+                </li>
+                <li id="return">
+                    <span class="return iconfont icon-huidingbu"> </span>
+                    <div class="return1 gong">
+                        <a href="javascript:;">回顶部</a>
+                        <div class="sjx"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+.login {
+  height: 100%;
+}
+
+.login .h_panel {
+  width: 1130px;
+  margin: 0 auto;
+}
+
+.login .h_panel .h_logo {
+  width: 200px;
+  height: 98px;
+  background: url(https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png) no-repeat;
+}
+
+.login .h_panel .h_logo a {
+  display: block;
+  height: 98px;
+  text-indent: -9999em;
+}
+
+.login .img {
+  width: 1263px;
+  margin-left: -8px;
+  height: 588px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url(../images/f838fdcd77715410b441f2f56d8f10cd.jpg);
+}
+
+.login .img .box {
+  position: absolute;
+  width: 410px;
+  min-height: 524px;
+  margin-bottom: 0;
+  margin-right: 0;
+  font-size: 14px;
+  z-index: 4;
+  right: 50px;
+  background: #fff;
+  text-align: center;
+  margin-top: 64px;
+}
+
+.login .img .box .nav_tabs {
+  padding: 27px 0 24px;
+  text-align: center;
+  font-size: 24px;
+  color: #666;
+}
+
+.login .img .box .nav_tabs a.now {
+  color: #f56600;
+}
+
+.login .img .box .nav_tabs .line {
+  width: 1px;
+  height: 24px;
+  margin: 0 35px 0 42px;
+  border: 1px solid #e0e0e0;
+}
+
+.login .img .box .nav_tabs a {
+  color: #666;
+  text-decoration: none;
+}
+
+.login .img .box .loginbox {
+  text-align: center;
+}
+
+.login .img .box .loginbox input {
+  width: 306px;
+  height: 22px;
+  line-height: 22px;
+  padding: 13px 16px 13px 14px;
+  display: block;
+  margin-bottom: 14px;
+  border: 1px solid #e0e0e0;
+  margin: 24px auto;
+}
+
+.login .img .box .loginbox .text {
+  text-align: left;
+  margin-left: 37px;
+  color: #ff6700;
+}
+
+.login .img .box .loginbox .btnadpt {
+  background-color: #ff6700;
+  width: 340px;
+  height: 50px;
+  line-height: 25px;
+  display: block;
+  margin-bottom: 14px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login .img .box .loginbox .btn_gray {
+  color: #ff6700;
+  border: 0 none;
+  height: auto;
+  line-height: normal;
+  margin: 0;
+  cursor: pointer;
+  float: left;
+  margin-left: 37px;
+  text-decoration: none;
+}
+
+.login .img .box .loginbox .n_links_area {
+  padding-top: 0;
+  color: #999;
+  margin-left: 210px;
+}
+
+.login .img .box .loginbox .n_links_area a {
+  color: #999;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.login .img .box .loginbox .n_links_area a:hover {
+  color: #ff6700;
+}
+
+.login .img .box .loginbox .n_links_area span {
+  padding: 0 5px;
+}
+
+.login .img .box #erweima {
+  width: 410px;
+  height: 440px;
+  text-align: center;
+  display: none;
+}
+
+.login .img .box #erweima img {
+  margin-top: 100px;
+}
+
+.login .img .box #erweima p {
+  color: #757575;
+  font-size: 14px;
+}
+
+.login .img .box #erweima p span {
+  padding: 0 5px;
+  color: #ff6700;
+}
+
+.login .n-footer {
+  background: #fff;
+  margin-top: 0;
+  padding-top: 100px;
+  position: relative;
+  z-index: 4;
+  font-size: 14px;
+  text-align: center;
+}
+
+.login .n-footer .nf-link-area {
+  text-align: center;
+}
+
+.login .n-footer .nf-link-area li {
+  display: inline-block;
+}
+
+.login .n-footer .nf-link-area li a {
+  display: inline-block;
+  padding: 0 10px;
+  color: #757575;
+  text-decoration: none;
+}
+
+.login .nf-intro {
+  padding: 10px;
+  color: #757575;
+  font-size: 14px;
+  text-align: center;
+}
+
+.login .nf-intro a {
+  color: #757575;
+  text-decoration: none;
+}

@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "img": "./images/jd3.jpg",
+        "h3": "米家互联网洗烘一体机10kg",
+        "desc": "OLED 显示屏幕 / 激光颗粒物传感器",
+        "price": 2999,
+        "yuan" : "2199元",
+        "new": "<div class='flag flag-new'>减200</div>"
+    },
+    {
+        "id": 2,
+        "img": "./images/jd4.jpg",
+        "h3": "米家互联网洗烘一体机10kg",
+        "desc": "OLED 显示屏幕 / 激光颗粒物传感器",
+        "price": 2999,
+        "yuan" : "2199元",
+        "new": "<div class='flag flag-new'>减500</div>"
+    },
+    {
+        "id": 1,
+        "img": "./images/jd5.jpg",
+        "h3": "米家互联网洗烘一体机10kg",
+        "desc": "OLED 显示屏幕 / 激光颗粒物传感器",
+        "price": 2999,
+        "yuan" : "2199元",
+        "new": "<div class='flag flag-new'>减100</div>"
+    },
+    {
+        "id": 1,
+        "img": "./images/jd6.png",
+        "h3": "米家互联网洗烘一体机10kg",
+        "desc": "OLED 显示屏幕 / 激光颗粒物传感器",
+        "price": 2999,
+        "yuan" : "2199元",
+        "new": "<div class='flag flag-new'>新品</div>"
+    },
+    {
+        "id": 1,
+        "img": "./images/jd7.png",
+        "h3": "米家互联网洗烘一体机10kg",
+        "desc": "OLED 显示屏幕 / 激光颗粒物传感器",
+        "price": 2999,
+        "yuan" : "2199元",
+        "new": "<div class='flag flag-new'>新品</div>"
+    },
+    {
+        "id": 1,
+        "img": "./images/jd3.jpg",
+        "h3": "米家互联网洗烘一体机10kg",
+        "desc": "OLED 显示屏幕 / 激光颗粒物传感器",
+        "price": 2999,
+        "yuan" : "2199元",
+        "new": "<div class='flag flag-new'>减50</div>"
+    },
+    {
+        "id": 1,
+        "img": "./images/jd5.jpg",
+        "h3": "米家互联网洗烘一体机10kg",
+        "desc": "OLED 显示屏幕 / 激光颗粒物传感器",
+        "price": 2999,
+        "yuan" : "2199元",
+        "new": "<div class='flag flag-new'>新品</div>"
+    }
+    
+]

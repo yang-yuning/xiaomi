@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "img": ".\/images\/sj1.jpg",
+        "h3": "\u5c0f\u7c739 SE 6GB+64GB",
+        "desc": "\u9a81\u9f99855\uff0c\u7d22\u5c3c4800\u4e07\u8d85\u5e7f\u89d2\u5fae\u8ddd\u4e09\u6444",
+        "price": 2999,
+        "yuan" : "",
+        "new": "\u003Cdiv class='flag flag-new'\u003E\u65b0\u54c1\u003C\/div\u003E"
+    },
+    {
+        "id": 1,
+        "img": ".\/images\/sj2.jpg",
+        "h3": "\u5c0f\u7c739 SE 6GB+64GB",
+        "desc": "\u9a81\u9f99855\uff0c\u7d22\u5c3c4800\u4e07\u8d85\u5e7f\u89d2\u5fae\u8ddd\u4e09\u6444",
+        "price": 3299,
+        "yuan" : "",
+        "new": "\u003Cdiv class='flag flag-new'\u003E\u65b0\u54c1\u003C\/div\u003E"
+    },
+    {
+        "id": 1,
+        "img": ".\/images\/sj3.png",
+        "h3": "\u5c0f\u7c739 SE 6GB+64GB",
+        "desc": "\u9a81\u9f99855\uff0c\u7d22\u5c3c4800\u4e07\u8d85\u5e7f\u89d2\u5fae\u8ddd\u4e09\u6444",
+        "price": 3199,
+        "yuan" : "",
+        "new": "\u003Cdiv class='flag flag-new'\u003E\u65b0\u54c1\u003C\/div\u003E"
+    },
+    {
+        "id": 1,
+        "img": ".\/images\/sj4.jpg",
+        "h3": "\u5c0f\u7c739 SE 6GB+64GB",
+        "desc": "\u9a81\u9f99855\uff0c\u7d22\u5c3c4800\u4e07\u8d85\u5e7f\u89d2\u5fae\u8ddd\u4e09\u6444",
+        "price": 1459,
+        "yuan" : "",
+        "new": "\u003Cdiv class='flag flag-new'\u003E\u65b0\u54c1\u003C\/div\u003E"
+    },
+    {
+        "id": 1,
+        "img": ".\/images\/sj5.jpg",
+        "h3": "\u5c0f\u7c739 SE 6GB+64GB",
+        "desc": "\u9a81\u9f99855\uff0c\u7d22\u5c3c4800\u4e07\u8d85\u5e7f\u89d2\u5fae\u8ddd\u4e09\u6444",
+        "price": 1999,
+        "yuan": "2199\u5143",
+        "new": "\u003Cdiv class='flag flag-zhe'\u003E\u51cf200\u003C\/div\u003E"
+    },
+    {
+        "id": 1,
+        "img": ".\/images\/sj6.jpg",
+        "h3": "\u5c0f\u7c739 SE 6GB+64GB",
+        "desc": "\u9a81\u9f99855\uff0c\u7d22\u5c3c4800\u4e07\u8d85\u5e7f\u89d2\u5fae\u8ddd\u4e09\u6444",
+        "price": 1988,
+        "yuan": "2188\u5143",
+        "new": "\u003Cdiv class='flag flag-zhe'\u003E\u4eab\u516b\u6298\u003C\/div\u003E"
+    },
+    {
+        "id": 1,
+        "img": ".\/images\/sj3.png",
+        "h3": "\u5c0f\u7c739 SE 6GB+64GB",
+        "desc": "\u9a81\u9f99855\uff0c\u7d22\u5c3c4800\u4e07\u8d85\u5e7f\u89d2\u5fae\u8ddd\u4e09\u6444",
+        "price": 1459,
+        "yuan": "2098\u5143",
+        "new": "\u003Cdiv class='flag flag-zhe'\u003E\u4eab\u516b\u6298\u003C\/div\u003E"
+    },
+    {
+        "id": 1,
+        "img": ".\/images\/sj2.jpg",
+        "h3": "\u5c0f\u7c739 SE 6GB+64GB",
+        "desc": "\u9a81\u9f99855\uff0c\u7d22\u5c3c4800\u4e07\u8d85\u5e7f\u89d2\u5fae\u8ddd\u4e09\u6444",
+        "price": 1599,
+        "yuan": "1558\u5143",
+        "new": "\u003Cdiv class='flag flag-zhe'\u003E\u51cf\u4e94\u5341\u003C\/div\u003E"
+    }
+]

@@ -1,0 +1,336 @@
+body {
+  overflow-y: auto;
+  height: 100%;
+  background: #f9f9f9;
+  color: #666;
+  font-size: 14px;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  display: box;
+}
+
+.wrapper .wrap {
+  padding-bottom: 80px;
+}
+
+.wrapper .wrap .layout {
+  width: 854px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.wrapper .wrap .layout .device-frame {
+  padding-bottom: 30px;
+  background: #fff;
+  padding: 34px 34px 0;
+}
+
+.wrapper .wrap .layout .device-frame .external_logo_area {
+  padding-bottom: 40px;
+  display: block;
+}
+
+.wrapper .wrap .layout .device-frame .external_logo_area .milogo {
+  width: 36px;
+  height: 48px;
+  margin: 0 auto;
+  display: block;
+  cursor: default;
+  background-image: url(../images/logo-footer.png);
+}
+
+.wrapper .wrap .layout .device-frame .title-item {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: center;
+  clear: both;
+}
+
+.wrapper .wrap .layout .device-frame .title-item .title_big30 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #333;
+}
+
+.wrapper .wrap .layout .device-frame .regbox {
+  width: 332px;
+  padding: 30px 0;
+  line-height: 20px;
+  margin: 0 auto;
+}
+
+.wrapper .wrap .layout .device-frame .regbox .tit_normal {
+  padding-bottom: 5px;
+  color: #333;
+  font-weight: normal;
+  font-size: 14px;
+  margin: 0;
+}
+
+.wrapper .wrap .layout .device-frame .regbox .listwrap {
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.wrapper .wrap .layout .device-frame .regbox .listwrap .tits {
+  height: 40px;
+  padding-left: 14px;
+  line-height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #e8e8e8;
+  color: #555;
+  cursor: pointer;
+}
+
+.wrapper .wrap .layout .device-frame .regbox .listwrap .tits p {
+  float: left;
+  width: 275px;
+  border-right: 1px solid #e8e8e8;
+  cursor: pointer;
+  margin: 0;
+}
+
+.wrapper .wrap .layout .device-frame .regbox .listwrap .tits .icon_cirarr {
+  float: right;
+  background: url(https://account.xiaomi.com/static/res/0eeaaed/passport/oauth/images/icon_user.png);
+  width: 16px;
+  height: 16px;
+  margin: 11px 12px 0 12px;
+}
+
+.wrapper .wrap .layout .device-frame .regbox .listwrap .dis_box {
+  font-size: 14px;
+}
+
+.wrapper .wrap .layout .device-frame .regbox .listwrap .sj .tits {
+  width: 54px;
+  text-align: center;
+  padding: 0 9px;
+  float: left;
+  margin-top: 1px;
+}
+
+.wrapper .wrap .layout .device-frame .regbox .listwrap .sj .tits p {
+  width: auto;
+  border-right: 0 none;
+}
+
+.wrapper .wrap .layout .device-frame .regbox .listwrap .sj .tits .icon_arrow {
+  float: left;
+  margin: 17px 0 0 10px;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #9d9d9d transparent transparent transparent;
+}
+
+.wrapper .wrap .layout .device-frame .regbox .listwrap .sj .labelbox {
+  margin-left: -1px;
+  position: relative;
+  z-index: 3;
+  padding-bottom: 15px;
+  height: 42px;
+  line-height: 40px;
+  display: inline-block;
+}
+
+.wrapper .wrap .layout .device-frame .regbox .listwrap .sj .labelbox input {
+  width: 236px;
+  height: 20px;
+  line-height: 20px;
+  padding: 9px;
+  display: inline-block;
+}
+
+.wrapper .wrap .layout .device-frame .regbox .region_tip_text {
+  margin-top: -10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.wrapper .wrap .layout .device-frame .regbox .btn_reg_1 {
+  background-color: #ff6700;
+  margin-top: 15px;
+  border: 1px solid rgba(186, 186, 186, 0.3);
+  *border: 0 none;
+  color: #fff;
+}
+
+.wrapper .wrap .layout .device-frame .regbox .btn332 {
+  width: 330px;
+  height: 42px;
+  margin: 0 auto;
+  line-height: 42px;
+  text-align: center;
+  font-size: 14px;
+  display: block;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  overflow: hidden;
+}
+
+.wrapper .wrap .layout .device-frame .regbox .privacy_box {
+  text-align: center;
+  padding-top: 40px;
+  width: 435px;
+  margin-left: -50px;
+}
+
+.wrapper .wrap .layout .device-frame .regbox .privacy_box .n_checked {
+  padding: 10px 0;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.wrapper .wrap .layout .device-frame .regbox .privacy_box .n_checked i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-top: -4px;
+  *margin-top: -2px;
+  display: inline-block;
+  vertical-align: middle;
+  background: #e8e8e8;
+  text-align: center;
+}
+
+.wrapper .wrap .layout .device-frame .regbox .privacy_box .n_checked a {
+  color: #333;
+  font-weight: bold;
+}
+
+.wrapper .wrap .layout .device-frame .step2 {
+  padding-top: 20px;
+}
+
+.wrapper .wrap .layout .device-frame .step2 .step2_txt {
+  padding-bottom: 10px;
+}
+
+.wrapper .wrap .layout .device-frame .step2 .step2_txt p {
+  padding: 0;
+}
+
+.wrapper .wrap .layout .device-frame .step2 .step2_txt p .address-place {
+  color: #ff6700;
+}
+
+.wrapper .wrap .layout .device-frame .step2 .inputcode.inputbg {
+  width: 580px;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.wrapper .wrap .layout .device-frame .step2 .inputcode.inputbg .labelbox,
+.wrapper .wrap .layout .device-frame .step2 .inputcode.inputbg .input_bg {
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+}
+
+.wrapper .wrap .layout .device-frame .step2 .inputcode.inputbg .labelbox input,
+.wrapper .wrap .layout .device-frame .step2 .inputcode.inputbg .input_bg input {
+  height: 20px;
+  line-height: 20px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.wrapper .wrap .layout .device-frame .step2 .inputcode.inputbg .labelbox .resendcode,
+.wrapper .wrap .layout .device-frame .step2 .inputcode.inputbg .input_bg .resendcode {
+  width: 190px;
+  max-width: 260px;
+}
+
+.wrapper .wrap .layout .device-frame .step2 .inputcode.inputbg .remain {
+  margin-left: 8px;
+  vertical-align: middle;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #e8e8e8;
+}
+
+.wrapper .wrap .layout .device-frame .step2 .inputcode.inputbg .remain a {
+  color: #000;
+  cursor: pointer;
+  padding: 0 10px;
+  display: block;
+  text-decoration: none;
+}
+
+.wrapper .wrap .layout .device-frame .step2 .inputcode.inputbg .labelbox,
+.wrapper .wrap .layout .device-frame .step2 .inputcode.inputbg .input_bg,
+.wrapper .wrap .layout .device-frame .step2 .inputcode.inputbg .tits_list,
+.wrapper .wrap .layout .device-frame .step2 .inputcode.inputbg .borderbox {
+  border: 1px solid #e8e8e8;
+}
+
+.wrapper .wrap .layout .device-frame .step2 .btn_reg_1 {
+  background-color: #ff6700;
+  margin-top: 15px;
+  border: 1px solid rgba(186, 186, 186, 0.3);
+  *border: 0 none;
+  color: #fff;
+}
+
+.wrapper .wrap .layout .device-frame .step2 .btn_reg_2 {
+  background: #fff;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  color: #7c7c7c;
+}
+
+.wrapper .wrap .layout .device-frame #regbox3 .resendcode {
+  width: 306px;
+  max-width: 306px;
+}
+
+.wrapper .wrap .layout .device-frame .regbox2 {
+  display: block;
+}
+
+.wrapper .n-footer {
+  color: #9d9d9d;
+  text-align: center;
+  height: 80px;
+  margin-top: -80px;
+}
+
+.wrapper .n-footer .nf-link-area {
+  text-align: center;
+}
+
+.wrapper .n-footer .nf-link-area li {
+  display: inline-block;
+}
+
+.wrapper .n-footer .nf-link-area li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 10px;
+  color: #333;
+}
+
+.wrapper .nf-intro {
+  padding: 10px;
+}
+
+.wrapper a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 10px;
+  color: #757575;
+}

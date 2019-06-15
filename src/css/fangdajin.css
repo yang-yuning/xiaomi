@@ -1,0 +1,78 @@
+
+.goods{
+    width: 560px;
+}
+.magnifierContainer {
+    display: flex;
+    margin: 30px 0 0 10px;
+}
+
+.imgMedium {
+    position: relative;
+    margin-left: 50px;
+}
+
+.imgLeft .magnifier {
+    position: absolute;
+    display: none;
+    width: 200px;
+    height: 200px;
+}
+
+.mediumContainer {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #eee;
+    overflow: hidden;
+
+}
+.mediumContainer img{
+    width: 100%;
+    height: 100%;
+}
+
+#zhezhao {
+    width: 500px;
+    height: 500px;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    border: 1px solid transparent;
+}
+
+#zhezhao:hover {
+    cursor: move;
+}
+
+.img_x {
+    margin-left: 48px;
+    border: 1px solid #eee;
+    margin-top: 10px;
+    padding: 4px;
+    display: flex;
+}
+
+.img_x li {
+    float: left;
+    border: 2px solid #eee;
+    margin-right: 3px;
+    width: 114px;
+    height: 80px;
+}
+
+.img_u {
+    width: 500px;
+    height: 500px;
+    background: #fff;
+    border: 1px solid #eee;
+    float: left;
+    margin-left: 15px;
+    overflow: hidden;
+    display: none;
+}
+
+#img_x li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}

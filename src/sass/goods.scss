@@ -1,0 +1,345 @@
+.main {
+    width: 1226px;
+    position: relative;
+}
+
+.xm-product-box {
+    width: 1263px;
+    position: relative;
+    z-index: 4;
+    background: #fff;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.07);
+
+    .nav-bar {
+        position: relative;
+        height: 63px;
+        width: 100%;
+        margin-top: 0;
+        color: #616161;
+
+        h2 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 60px;
+            color: #212121;
+            float: left;
+        }
+
+        .container {
+
+            height: 65px;
+
+            a:hover {
+                color: rgb(255, 74, 0);
+                transition: all 0.3s;
+            }
+        }
+
+        .left {
+            float: left;
+            margin-left: 5px;
+            font-size: 12px;
+            margin-top: 21px;
+
+            .separator {
+                margin: 0 .25em;
+                color: #212121;
+
+            }
+
+            a {
+                color: #616161;
+            }
+        }
+
+        .right {
+            float: right;
+            margin: 17px 0 0 0;
+
+            a {
+                color: #616161;
+                font-size: 14px;
+            }
+
+            span {
+                color: #e0e0e0;
+            }
+        }
+    }
+
+}
+
+.goods-r {
+    margin: 30px 0 0 20px;
+    font-size: 14px;
+
+    h1 {
+        font-size: 24px;
+        font-weight: normal;
+        color: #212121;
+    }
+
+    .sale-desc {
+        width: 606px;
+        color: #b0b0b0;
+        margin: 0;
+        padding: 0;
+        padding-top: 8px;
+
+    }
+
+    .aftersale-company {
+        margin-bottom: 0;
+        color: #ff6700;
+        margin-top: 10px;
+    }
+
+    .price {
+        font-size: 18px;
+        line-height: 1;
+        color: #ff6700;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 12px 0 20px;
+    }
+
+    .flow-wrap {
+        padding: 10px 0;
+        border-bottom: 1px solid #e0e0e0;
+
+        li {
+            list-style: none;
+            margin-bottom: 5px;
+
+            .flow-tag {
+
+                width: 80px;
+                padding: 2px 0;
+                text-align: center;
+                background: #ff6700;
+                color: #fff;
+            }
+
+            .flow-name {
+                width: 430px;
+                line-height: 26px;
+                margin-left: 5px;
+            }
+
+            span {
+                display: inline-block;
+            }
+        }
+    }
+
+    .weizhi {
+        background: #fafafa;
+        border: 1px solid #e0e0e0;
+        padding-left: 50px;
+        padding: 30px 40px 30px 32px;
+        position: relative;
+        font-size: 14px;
+
+        i {
+            position: absolute;
+            left: 20px;
+            top: 26px;
+            font-size: 20px;
+            color: #999;
+        }
+
+        .address-info {
+            display: inline-block;
+            margin-left: 20px;
+
+            .item {
+                margin-right: 14px;
+                cursor: pointer;
+            }
+        }
+
+        .xiugai {
+            line-height: 1;
+            color: #ff6700;
+            cursor: pointer;
+        }
+
+        p {
+            color: #ff6700;
+            cursor: pointer;
+            margin: 10px 0 0 20px;
+
+
+        }
+    }
+
+    .banben {
+        margin-top: 40px;
+
+        h2 {
+            line-height: 1;
+            font-size: 18px;
+        }
+
+        ul {
+            width: 612px;
+            padding-top: 1px;
+            margin-left: -6px;
+
+            li:nth-child(1) {
+                border-color: #ff6700;
+                color: #ff6700;
+            }
+
+            li {
+                margin-left: 6px;
+                margin-top: 15px;
+                line-height: 42px;
+                height: 42px;
+                position: relative;
+                border: 1px solid #e0e0e0;
+                list-style: none;
+                cursor: pointer;
+                transition: all .2s ease;
+                float: left;
+                width: 298px;
+                text-align: center;
+                font-size: 16px;
+
+                span {
+                    display: inline-block;
+                    color: #757575;
+                }
+
+                .name {
+                    width: 170px;
+                    color: #ff6700;
+                }
+            }
+        }
+    }
+
+    .yanse ul li span {
+        margin: 0 10px;
+        height: 42px;
+        display: inline-block;
+        text-align: center;
+        overflow: hidden;
+
+        img {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            margin-right: 10px;
+            vertical-align: middle;
+            margin-top: -2px;
+        }
+
+    }
+
+    .yanse ul li:nth-child(1) span {
+        color: #ff6700;
+    }
+
+    .pro-list {
+        background: #f9f9fa;
+        padding: 30px;
+        margin: 30px 0;
+
+        ul {
+
+            li {
+                list-style: none;
+                line-height: 30px;
+                color: #616161;
+
+                span {
+                    float: right;
+                }
+            }
+
+            .totlePrice {
+                color: #ff6700;
+                font-size: 24px;
+                padding-top: 20px;
+            }
+        }
+    }
+
+    .btn-wrap {
+        margin: 10px 0 20px 0;
+
+        li {
+            list-style: none;
+            display: inline-block;
+            margin-right: 10px;
+            vertical-align: text-top;
+            background: #ff6700;
+            border-color: #ff6700;
+            color: #fff;
+            width: 298px;
+            height: 52px;
+            line-height: 52px;
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        li:nth-child(2) {
+            width: 140px;
+            height: 52px;
+            line-height: 52px;
+            border: 1px solid #b0b0b0;
+            text-align: center;
+            cursor: pointer;
+            -webkit-transition: all .4s;
+            transition: all .4s;
+            font-size: 16px;
+            background: #b0b0b0;
+            line-height: 52px;
+            .xihuan{
+                font-size: 22px;
+                line-height: 23px;
+                vertical-align: -3px;
+                margin-right: 5px;
+            
+            }
+        }
+        li:nth-child(2):hover{
+            background-color: #757575;
+            border-color: #757575;
+            color: #fff;}
+    }
+    .dd span{
+        display: inline-block;
+        margin-right: 15px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        cursor: default;
+    white-space: nowrap;
+    color: #b0b0b0;
+    }
+   
+}
+.sm {
+    padding-bottom: 50px;
+    background: #f5f5f5;
+    width: 1263px;
+    // margin-left: 20px;
+h2 {
+    font-size: 22px;
+    font-weight: normal;
+   margin-left: 20px;
+    padding: 1em 0;
+}
+img{
+    height: 189px;
+    margin-left: 20px;
+}
+}
+.xiding{
+    position: relative;
+    height: 65px;
+}
